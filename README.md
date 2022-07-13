@@ -23,10 +23,10 @@ docker compose build
 docker compose up
 ```
 
-3 - If you want to run a specific file in the app folder, just run the command below, replacing the app.py file with the file you created.
+3 - If you want to run a specific file in the app folder, just run the command below, replacing the "main.py" file with the file you created.
 
 ```
-docker compose run --rm app sh -c "python app.py"
+docker compose run --rm app sh -c "python main.py"
 ```
 
 If you have any doubts, add an issue to the project, which I will answer as soon as possible. :)
