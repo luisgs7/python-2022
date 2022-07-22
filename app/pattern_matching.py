@@ -1,11 +1,10 @@
 def match_func(var: int):
-
     match var:
         case 1:
-            print(f"{var}--OK")
+            print(f"{var}--One")
         case 2:
-            print(f"{var}--OK")
+            print(f"{var}--Two")
         case 3:
-            print(f"{var}--OK")
+            print(f"{var}--three")
         case _:
             print("Você digitou um número diferente.")
