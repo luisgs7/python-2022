@@ -9,4 +9,5 @@ class City(Enum):
 
 def hello_city():
     for city in City:
-        print(city)
+        cidade = city.name
+        print(cidade)
