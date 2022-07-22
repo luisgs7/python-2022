@@ -7,4 +7,5 @@ def match_func(var: int):
         case 3:
             print(f"{var}--three")
         case _:
-            print("Você digitou um número diferente.")
+            print("Outro número.")
+
