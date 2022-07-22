@@ -3,6 +3,7 @@ from data_class_app import new_person
 from enum_app import hello_city
 from fstring_app import hi_fstring
 from typing_app import type_app
+from walrus_operator_app import walrus_operator
 
 
 if __name__ == '__main__':
@@ -12,3 +13,4 @@ if __name__ == '__main__':
     hello_city()
     hi_fstring()
     type_app([1, 2, 3], (4.1, 5.2, 6.3))
+    walrus_operator([1 ,2])
