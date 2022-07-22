@@ -28,5 +28,9 @@ docker compose up
 ```
 docker compose run --rm app sh -c "python main.py"
 ```
+4 - Alternatively you can use the command below, which will also run the main.py file.
 
+```
+docker compose up
+```
 If you have any doubts, add an issue to the project, which I will answer as soon as possible. :)
